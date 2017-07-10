@@ -21,7 +21,7 @@ namespace XamarinTestRecorder
         protected override void OnStart()
         {
             // Handle when your app starts
-            MobileCenter.Start("android=cf13f737-c549-4928-8d1e-20eb59e678a8;", typeof(Analytics), typeof(Crashes));
+            MobileCenter.Start("android=46765c1d-535c-48f9-8875-87fa6db67468;", typeof(Analytics), typeof(Crashes));
         }
 
         protected override void OnSleep()
