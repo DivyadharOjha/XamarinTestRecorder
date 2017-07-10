@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinTestRecorder"
+             x:Class="XamarinTestRecorder.MainPage">
+    <StackLayout Orientation="Vertical">
+        <Entry x:Name="txtNum1" AutomationId="txtNum1Test"></Entry>
+        <Entry x:Name="txtNum2" AutomationId="txtNum2Test"></Entry>
+        <Button x:Name="btnAdd" Text="Add" AutomationId="btnAddTest" Clicked="btnAdd_Clicked"></Button>
+        <Entry x:Name="txtNum3" AutomationId="txtNum3Test"></Entry>
+    </StackLayout>
+        
+</ContentPage>
